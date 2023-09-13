@@ -13,16 +13,16 @@
 </script>
 	<form method="post">
 		<label for="text" >Name</label>
-		<input type="text" id="text" placeholder="Name" required>
+		<input type="text" id="text" name="name" placeholder="Name" required>
 		<label for="mail" >Email</label>
-		<input type="email" id="mail" placeholder="Email" required>
+		<input type="email" id="mail" name="email"placeholder="Email" required>
 		<label>Gender</label>
 		<label for="gender_m">m</label>
 		<input type="radio" id="gender_m" name="gender" value="male">
 		<label for="gender_f">f</label>
 		<input type="radio" id="gender_f" name="gender" value="female">
 		<label for="cars">Car Brands</label>
-		<input type="select" id="cars" placeholder="--choose an option--" required>
+		<input type="select" id="cars" name="select" placeholder="--choose an option--" required>
 		<label for="age">Age</label>
 		<input type="Number" id="age" placeholder="Age" required>
 		<label for="dob">DOB</label>
@@ -33,7 +33,7 @@
 		<input type="Password" id="password" placeholder="Password" required>
 		<label for="tos">I agree to this TOS</label>
 		<input type="checkbox" id="tos" required>
+		<input type="button" value="submit">
 	</form>
 </body>
-
 </html>
